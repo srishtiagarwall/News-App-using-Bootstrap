@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css"
+    integrity="sha384-nU14brUcp6StFntEOOEBvcJm4huWjB0OcIeQ3fltAfSmuZFrkAif0T+UtNGlKKQv" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>QuickBytes!</title>
+</head>
+
+<body class="bg-primary-subtle">
+  <nav class="navbar navbar-expand-lg bg-secondary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">QuickBytes!</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        </ul>
+        <form class="d-flex" role="search">
+          <input id="searchInput" class="form-control me-auto" type="search" placeholder="Search" aria-label="Search" autocomplete="off">
+          <button id="search" class="btn btn-outline-black border border-black h-2" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <h1 class="text-center mt-4" style="font-family: monospace;">QuickBytes: Your Daily Briefing!</h1>
+
+  <div class="row content bg-secondary">
+    <div class="card m-auto">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body bg-primary-subtle">
+        <h5 class="card-title"></h5>
+        <p class="card-text"></p>
+        <a href="#" class="btn btn-primary"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="d-flex.no-border justify-between">
+    <button id="prev" class="btn">Previous Page</button>
+    <button id="next" class="btn">Next Page</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 35px 10px 10px 10px;
+}
+
+.card {
+    width: 250px;
+    height: 30rem;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+    overflow: auto;
+    text-overflow: ellipsis;
+}
+
+.read-more {
+    display: block;
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#searchInput {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+}
+
+#search {
+    width: 100px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    background-color: black;
+    color: white;
+}
+
+#prev, #next {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    margin: 40px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.d-flex.no-border {
+    border: none;
+    outline: none;
+}
+
+#prev:hover,
+#next:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.content .card img {
+    width: 100%;
+    height: 150px;
+}
